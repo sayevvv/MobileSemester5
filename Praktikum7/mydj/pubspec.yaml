@@ -41,6 +41,12 @@ dependencies:
   # URL launcher for opening links
   url_launcher: ^6.2.5
 
+  # Image picker for selecting images
+  image_picker: ^1.2.0
+
+  # Video player for playing videos
+  video_player: ^2.9.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

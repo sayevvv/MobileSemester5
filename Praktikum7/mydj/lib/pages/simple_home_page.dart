@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'lihat_jurnal_page.dart';
-import 'buat_jurnal_page.dart';
-import 'akun_page.dart';
-import 'tentang_aplikasi_page.dart';
+import 'package:mydj/pages/lihat_jurnal_page.dart';
+import 'package:mydj/pages/buat_jurnal_page.dart';
+import 'package:mydj/pages/akun_page.dart';
+import 'package:mydj/pages/tentang_aplikasi_page.dart';
 
 class SimpleHomePage extends StatefulWidget {
   const SimpleHomePage({super.key, required this.title});
