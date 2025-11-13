@@ -38,6 +38,9 @@ dependencies:
   # Tambahkan library Provider di sini (perhatikan indentasinya!)
   provider: ^6.1.2
 
+  # URL launcher for opening links
+  url_launcher: ^6.2.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

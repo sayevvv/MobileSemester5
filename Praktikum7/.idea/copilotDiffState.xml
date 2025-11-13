@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/mydj/lib/data/data_provider.dart">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/mydj/lib/data/data_provider.dart" />
+              <option name="originalContent" value="import 'package:flutter/cupertino.dart';&#10;import 'package:mydj/data/jurnal.dart';&#10;class DataProvider extends ChangeNotifier&#10;{&#10;  final List&lt;Jurnal&gt; _jurnalTersimpan = [];&#10;  void addNew(Jurnal jurnal) // &lt;-- Method untuk menambahkan entri jurnal&#10;  {&#10;    _jurnalTersimpan.add(jurnal);&#10;    notifyListeners();&#10;  }&#10;  List&lt;Jurnal&gt; get jurnalTersimpan&#10;  {&#10;    return List.unmodifiable(_jurnalTersimpan);&#10;  }&#10;}" />
+              <option name="updatedContent" value="import 'package:flutter/cupertino.dart';&#10;import 'jurnal.dart';&#10;class DataProvider extends ChangeNotifier&#10;{&#10;  final List&lt;Jurnal&gt; _jurnalTersimpan = [];&#10;  void addNew(Jurnal jurnal) // &lt;-- Method untuk menambahkan entri jurnal&#10;  {&#10;    _jurnalTersimpan.add(jurnal);&#10;    notifyListeners();&#10;  }&#10;  List&lt;Jurnal&gt; get jurnalTersimpan&#10;  {&#10;    return List.unmodifiable(_jurnalTersimpan);&#10;  }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
